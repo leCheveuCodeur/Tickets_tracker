@@ -6,7 +6,7 @@ Basic ticket management tools with PHP
 
 ## How it work
 
-![Tickets_tracker](./art/Tickets_tracker.gif)
+![Tickets_tracker](art/Tickets_tracker.gif)
 
 ## Prerequisites
 
@@ -36,3 +36,4 @@ CREATE TABLE IF NOT EXISTS `tickets` (
 - [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
 - [PHP](https://www.php.net/)
 - [MySQL](https://www.mysql.com/fr/)
+
