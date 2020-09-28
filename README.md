@@ -2,7 +2,8 @@
 
 ## Description
 
-Basic ticket management tools with PHP
+Training with PHP - Basic tools for ticket management
+
 
 ## How it work
 
