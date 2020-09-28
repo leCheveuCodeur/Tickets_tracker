@@ -6,7 +6,7 @@ Basic ticket management tools with PHP
 
 ## How it work
 
-![Tickets_tracker](art/Tickets_tracker.gif)
+![tickets_tracker](./art/tickets_tracker.gif)
 
 ## Prerequisites
 
