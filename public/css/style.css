@@ -4,108 +4,108 @@
 /** BASE: color - background - font
 /**====================================*/
 * {
-  font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: rgb(241, 255, 241);
+	background-color: rgb(241, 255, 241);
 }
 main {
-  background-color: white;
+	background-color: white;
 }
 
 .listTickets thead {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .message {
-  background-color: rgb(220, 255, 220);
+	background-color: rgb(220, 255, 220);
 }
 
 textarea,
 input {
-  background-color: white;
+	background-color: white;
 }
 /** LAYOUT
 /**====================================*/
 
 main {
-  border: 2px solid rgb(220, 255, 220);
-  box-shadow: 1px 1px 8px darkgray;
-  border-radius: 2em;
-  height: 94vh;
-  max-width: 550px;
-  margin: 1.2em auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	border: 2px solid rgb(220, 255, 220);
+	box-shadow: 1px 1px 8px darkgray;
+	border-radius: 2em;
+	height: 94vh;
+	max-width: 550px;
+	margin: 1.2em auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .template {
-  box-shadow: 1px 1px 8px darkgray;
-  border-radius: 2em;
-  padding: 1em;
-  margin: 0.5em;
-  width: 150px;
-  border: none;
+	box-shadow: 1px 1px 8px darkgray;
+	border-radius: 2em;
+	padding: 1em;
+	margin: 0.5em;
+	width: 150px;
+	border: none;
 }
 
 .nav {
-  text-align: center;
+	text-align: center;
 }
 
 .total {
-  padding: 0.8em;
-  line-height: 1.2em;
-  width: 220px;
-  border: 3px solid rgb(220, 255, 220);
-  border-radius: 2.5em;
-  margin: 1em auto;
+	padding: 0.8em;
+	line-height: 1.2em;
+	width: 220px;
+	border: 3px solid rgb(220, 255, 220);
+	border-radius: 2.5em;
+	margin: 1em auto;
 }
 .total tr:first-child > td {
-  border-bottom: 2px dotted rgb(220, 255, 220);
+	border-bottom: 2px dotted rgb(220, 255, 220);
 }
 
 .listTickets {
-  display: block;
-  padding: 2em;
-  line-height: 2em;
-  overflow: auto;
+	display: block;
+	padding: 2em;
+	line-height: 2em;
+	overflow: auto;
 }
 .listTickets tbody td {
-  border-bottom: 2px solid rgb(220, 255, 220);
-  padding: 0.5em;
+	border-bottom: 2px solid rgb(220, 255, 220);
+	padding: 0.5em;
 }
 .message {
-  padding: 0.5em;
-  width: 80%;
-  text-align: center;
-  border-radius: 2em;
+	padding: 0.5em;
+	width: 80%;
+	text-align: center;
+	border-radius: 2em;
 }
 .access {
-  box-shadow: 1px 1px 8px darkgray;
-  border-radius: 2em;
-  padding: 0.2em;
-  margin: 0.5em;
-  width: 110px;
-  border: none;
+	box-shadow: 1px 1px 8px darkgray;
+	border-radius: 2em;
+	padding: 0.2em;
+	margin: 0.5em;
+	width: 110px;
+	border: none;
 }
 
 input[type="date"],
 input[type="number"] {
-  border: 3px solid rgb(220, 255, 220);
-  border-radius: 2em;
-  padding: 0.1em;
-  margin: 0.5em;
-  text-align: center;
+	border: 3px solid rgb(220, 255, 220);
+	border-radius: 2em;
+	padding: 0.1em;
+	margin: 0.5em;
+	text-align: center;
 }
 
 .ticket textarea {
-  border: 1px solid rgb(220, 255, 220);
-  border-radius: 0.5em;
+	border: 1px solid rgb(220, 255, 220);
+	border-radius: 0.5em;
 }
 
 .modifDel {
-  text-align: center;
+	text-align: center;
 }
 /** MODULE: Management of all modular elements
 /**====================================*/
@@ -113,19 +113,19 @@ input[type="number"] {
 /** STATE: Status Management
 /**====================================*/
 input:hover {
-  cursor: pointer;
-  background-color: rgb(220, 255, 220);
-  transform: scale(1.1);
-  transition: 0.3s;
+	cursor: pointer;
+	background-color: rgb(220, 255, 220);
+	transform: scale(1.1);
+	transition: 0.3s;
 }
 
 /** THEME: Basic Layout Modifications Following Action
 /**====================================*/
 @media only screen and (max-width: 560px) {
-  main {
-    margin: 0.8em 0.8em;
-    font-size: 0.8em;
-  }
+	main {
+		margin: 0.8em 0.8em;
+		font-size: 0.8em;
+	}
 }
 /**SHAME: All unclassified tweaks
 /**====================================*/
